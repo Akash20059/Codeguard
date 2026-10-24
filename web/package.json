@@ -1,0 +1,37 @@
+{
+  "name": "compliance-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.1.26",
+    "@langchain/langgraph": "^1.1.5",
+    "@octokit/auth-app": "^8.2.0",
+    "@prisma/client": "^5.8.0",
+    "bullmq": "^5.67.2",
+    "clsx": "^2.1.0",
+    "dotenv": "^17.2.3",
+    "ioredis": "^5.4.1",
+    "lucide-react": "^0.300.0",
+    "next": "^14.2.35",
+    "next-auth": "^4.24.5",
+    "octokit": "^5.0.5",
+    "pg": "^8.17.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-merge": "^2.2.0",
+    "tree-sitter-wasms": "^0.1.12",
+    "web-tree-sitter": "^0.24.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "prisma": "^5.8.0",
+    "tailwindcss": "^3.3.0"
+  }
+}
